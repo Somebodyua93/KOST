@@ -1,0 +1,309 @@
+/*==========  Desktop First Method  ==========*/
+
+
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1280px) {
+
+	header{
+	}
+
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+		header{
+		}
+
+	}
+
+@media only screen and (max-width : 1024px) {
+	header{
+	}
+	section {
+		.container {
+			.row {
+				.main_sec {
+					.left_side {
+						width: 90px;
+					}
+				}
+			}
+		}
+	}
+
+}
+
+
+
+	/* Medium Devices, Desktops */
+	@media only screen and (max-width : 992px) {
+
+		.footer_main_sec {
+			justify-content: center;
+			.wrap_col {
+				flex-grow: 1;
+				flex-shrink: 1;
+				flex-wrap: wrap;
+				.col {
+					display: flex;
+					flex-wrap: wrap;
+					flex-basis: 100%;
+					justify-content: center;
+					.col_img {
+						background-position: center center;
+					}
+					p {
+						justify-content: center;
+					}
+					a {
+						margin-bottom: 1em;
+					}
+				}
+			}
+		}
+		footer{
+			display: flex;
+			.container{
+				.footer_footer{
+					display: flex;
+					flex-wrap: wrap;
+					.buttons{
+						flex-direction: column;
+						a{
+							margin-bottom: .3em;
+						}
+					}
+				}
+			}
+		}
+
+
+	}
+
+
+
+
+
+
+	/* Small Devices, Tablets */
+	@media only screen and (max-width : 768px) {
+
+		header{
+			.container{
+				.row {
+					#toggle {
+						display: block;
+					}
+					.menu_line {
+						display: none;
+					}
+					.ph_lang {
+						width: 200px;
+					}
+				}
+			}
+		}
+		section{
+			.container {
+				.row {
+					.main_sec {
+						.left_side {
+							flex-shrink: 0;
+							min-width: 70px;
+							flex-basis: 15%;
+							ul {
+								flex-direction: column;
+							}
+							.share {
+								left: 2%;
+							}
+						}
+						.right_side {
+							flex-basis: 80%;
+						}
+					}
+					.footer_main_sec{
+						.wrap_col{
+							text-align: center;
+							.wr_col_img{
+								.col_img{
+									img{
+										max-width: 50%;
+
+									}
+								}
+							}
+						}
+						h2{
+							text-align: center;
+						}
+					}
+				}
+			}
+		}
+		footer{
+			justify-content: center;
+			.container{
+				.footer_header{
+					display: flex;
+					justify-content: center;
+					flex: 1 1 50%;
+					flex-wrap: wrap;
+				}
+				.footer_footer{
+					flex-direction: column;
+					.buttons{
+						justify-content: center;
+						text-align: center;
+						margin-bottom: 1em;
+					}
+					.col{
+						min-width: 250px !important;
+						text-align: center;
+						justify-content: center;
+						&:nth-child(1){
+							order: 3;
+							margin: 0 auto 1em !important;
+						}
+						&:nth-child(2){
+							order: 2;
+							margin: 0 auto;
+						}
+						&:nth-child(3){
+							order: 1;
+							margin: 0 auto;
+						}
+					}
+				}
+			}
+		}
+	}
+	@media only screen and (max-width : 576px){
+
+		header{
+			.container{
+				.row {
+					#toggle {
+						margin-right: 1em;
+					}
+					.menu_line {
+						display: none;
+					}
+					.ph_lang {
+						width: 9em;
+					}
+				}
+			}
+		}
+	}
+
+
+
+
+	/* Extra Small Devices, Phones */
+	@media only screen and (max-width : 480px) {
+
+		header{
+
+		}
+
+	}
+
+
+
+
+	/* Custom, iPhone Retina */
+	@media only screen and (max-width : 320px) {
+
+		header{
+
+		}
+
+	}
+
+
+
+
+
+
+	/*==========  Mobile First Method  ==========*/
+
+	/* Custom, iPhone Retina */
+	@media only screen and (min-width : 320px) {
+
+	}
+
+
+
+
+
+	/* Extra Small Devices, Phones */
+	@media only screen and (min-width : 480px) {
+
+	}
+
+
+
+
+
+	/* Small Devices, Tablets */
+	@media only screen and (min-width : 768px) {
+
+		header{
+
+		}
+
+	}
+
+
+
+
+
+	/* Medium Devices, Desktops */
+	@media only screen and (min-width : 992px) {
+
+	}
+
+
+
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+		header{
+
+		}
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1400px) {
+
+		header{
+
+		}
+
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1900px) {
+
+	header{
+
+	}
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 2500px) {
+
+	header{
+
+	}
+
+}

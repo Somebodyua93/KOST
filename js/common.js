@@ -1,7 +1,12 @@
 $(document).ready(function() {
+	$('#scrollbtn').click (function() {
+		$('html, body').animate({scrollTop: $('section').offset().top }, 1000);
+		return false;
+	});
+
 	$("#toggle").click(function () {
 		$(this).toggleClass("on");
-		$(".mobile_menu").slideToggle(300);
+		$(".mob_menu").slideToggle(300);
 		return false;
 	});
 
@@ -12,9 +17,6 @@ $(document).ready(function() {
 	});
 
 
-	//sticky
-	$(".left_side").stick_in_parent();
-	//sticky
 });
 
 

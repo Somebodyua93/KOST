@@ -1,14 +1,82 @@
-$os-lgt: "OpenSans-Light", sans-serif;
-$os-reg: "OpenSans-Regular", sans-serif;
-$os-semb: "OpenSans-Semibold", sans-serif;
-$raleway: "Raleway", sans-serif;
-$deffonts: sans-serif, Arial, Verdana, "RobotoRegular", 'PT Sans';
-$futura: 'FuturaPT', sans-serif;
-$prox-reg: 'ProximaNovaCond-Regular', sans-serif, Arial;
-$prox-semib: 'ProximaNovaCond-Semibold', sans-serif, Arial;
-$dark_grey: #3F3F3F;
-$grey: #646464;
-$light-grey: #cdcdcd;
+$futuramd: 'FuturaBT_medium', sans-serif, Arial, Verdana;
+$futurabold: 'FuturaBT_bold', sans-serif, Arial, Verdana;
+$dark_grey: #383838;
+$grey_for_p: #4c4c4c;
+$grey: #828080;
+$light_grey: #939393;
+$wh_gr: #f5f5f5;
+$blue: #3C79EB;
+$orange: #ed9b34;
 $wh_c: #ffffff;
 $bl_c: #000000;
-$blue: #3C79EB;
+
+$padding: 10vh 0;
+@mixin padding {
+	padding: $padding;
+}
+
+$flex: flex;
+$wrap: wrap;
+@mixin flex {
+	display: $flex;
+	flex-wrap:$wrap;
+}
+
+$effect: opacity .3s ease-out;
+@mixin transitionopacity {
+	-webkit-transition: $effect;
+	   -moz-transition: $effect;
+	    -ms-transition: $effect;
+	     -o-transition: $effect;
+	        transition: $effect;
+}
+
+$effect: all .3s ease-out;
+@mixin transitionall {
+	-webkit-transition: $effect;
+	   -moz-transition: $effect;
+	    -ms-transition: $effect;
+	     -o-transition: $effect;
+	        transition: $effect;
+}
+
+$boxshw: 0px 0px 75px 0px rgba(0,0,0,0.32);
+@mixin box-shadow{
+	-webkit-box-shadow: $boxshw;
+		 -moz-box-shadow: $boxshw;
+		      box-shadow: $boxshw;
+}
+
+
+.container{
+	max-width: 940px !important;
+}
+.main_text_p{
+	font-family: $futuramd;
+	color: $grey_for_p;
+	font-size: 22px;
+	line-height: 28px;
+}
+
+.main_h1{
+	position: relative;
+	padding: 0 0 75px 0;
+	font-family: $futurabold;
+	font-size: 55px;
+	text-transform: capitalize;
+}
+.first_h1{
+	position: relative;
+	padding: 0 0 75px 0;
+	font-family: $futurabold;
+	font-size: 55px;
+	text-transform: capitalize;
+}
+
+.main_h2{
+	position: relative;
+	padding: 0 0 75px 0;
+	font-family: $futurabold;
+	font-size: 30px;
+	text-transform: capitalize;
+}

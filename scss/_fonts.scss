@@ -1,21 +1,21 @@
-/* font-family: "FuturaPT"; */
+/* font-family: "FuturaBT_medium"; */
 @font-face {
-  font-family: "FuturaPT";
-  src: url("../fonts/FuturaPT/FuturaPT-Demi.ttf") format("truetype");
+  font-family: "FuturaBT_medium";
+  src: url("../fonts/FuturaBT_medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/* font-family: "FuturaBT_bold"; */
+@font-face {
+  font-family: "FuturaBT_bold";
+  src: url("../fonts/FuturaBT_bold.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
 /* font-family: "ProximaNovaCond"; */
 @font-face {
-  font-family: "ProximaNovaCond-Regular";
-  src: url("../fonts/ProximaNovaCond/ProximaNovaCond-Regular.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
-}
-/* font-family: "ProximaNovaCond"; */
-@font-face {
-  font-family: "ProximaNovaCond-Semibold";
-  src: url("../fonts/ProximaNovaCond/ProximaNovaCond-Semibold.ttf") format("truetype");
+  font-family: "Microsoft JhengHei UI Light";
+  src: url("../fonts/Microsoft JhengHei UI Light.ttc") format("truetype");
   font-style: normal;
   font-weight: normal;
 }

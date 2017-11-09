@@ -16,15 +16,15 @@ html{
 }
 
 body {
-	font-family: $deffonts;
+	position: relative;
 	font-size: 16px;
-	background-color: #ccc !important;
 }
 a {text-decoration: none !important;}
 li {list-style-type: none;}
 
 input{
 	font-size: 16px;
+	outline: none;
 }
 
 span,a, p, ul {
